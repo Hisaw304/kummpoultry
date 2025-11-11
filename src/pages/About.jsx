@@ -96,12 +96,10 @@ export default function About() {
             </h1>
 
             <p className="mt-4 text-lg text-white/90">
-              Kumm Poultry is a trusted name in premium egg production, known
-              for our commitment to quality, care, and community. From our
-              humble beginnings, we’ve grown into a modern poultry brand while
-              staying true to our family values — raising healthy hens,
-              producing fresh, wholesome eggs, and nurturing a sustainable
-              future for generations to come.
+              Kumm Poultry is a growing agricultural brand committed to
+              producing fresh, high-quality eggs through responsible and
+              sustainable farming. We combine modern innovation with
+              family-driven values to deliver eggs you can trust — every day.
             </p>
 
             <div className="mt-6 flex gap-3">
