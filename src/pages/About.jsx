@@ -96,11 +96,12 @@ export default function About() {
             </h1>
 
             <p className="mt-4 text-lg text-white/90">
-              Herbruck’s is a leading egg production company based in Saranac,
-              Michigan. Though we’ve grown significantly since our humble
-              beginnings in 1958, we maintain the small family farm mindset that
-              made us successful — and the vision for a better, more ethical
-              egg. (This text is a sample — your brand content can replace it.)
+              Kumm Poultry is a trusted name in premium egg production, known
+              for our commitment to quality, care, and community. From our
+              humble beginnings, we’ve grown into a modern poultry brand while
+              staying true to our family values — raising healthy hens,
+              producing fresh, wholesome eggs, and nurturing a sustainable
+              future for generations to come.
             </p>
 
             <div className="mt-6 flex gap-3">
