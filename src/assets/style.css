@@ -1,0 +1,43 @@
+:root {
+  --kp-yellow: #f6c200; /* primary yellow */
+  --kp-blue: #1e6fff; /* accent blue */
+  --kp-white: #ffffff;
+  --kp-body-bg: #f3f4f6; /* light gray page background */
+}
+
+/* Basic resets you can keep or merge into your global css */
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  background-color: var(--kp-body-bg);
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Simple utility to apply the brand yellow where Tailwind classes may not reach */
+.kp-bg-yellow {
+  background-color: var(--kp-yellow);
+}
+.kp-text-yellow {
+  color: var(--kp-yellow);
+}
+.kp-text-blue {
+  color: var(--kp-blue);
+}
+
+/* tiny helper for focus outlines */
+.kp-focus:focus {
+  outline: 2px solid var(--kp-blue);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* make link underline use the KP blue color */
+.link-hover-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--kp-blue);
+}
