@@ -99,14 +99,14 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
               href="/"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-md bg-[var(--kp-yellow)] text-black font-semibold shadow-md kp-focus"
             >
               Shop Fresh <ChevronRight size={18} />
-            </motion.a>
+            </motion.a> */}
 
             <motion.a
               whileHover={{ scale: 1.03 }}
