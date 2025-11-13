@@ -27,7 +27,7 @@ export default function Footer() {
               <Mail size={14} /> <span>kummpoultry@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 mt-1">
-              <Phone size={14} /> <span>+1 (681) 200-1946</span>
+              <Phone size={14} /> <span>+1 (402) 225-5507</span>
             </div>
           </div>
         </div>
