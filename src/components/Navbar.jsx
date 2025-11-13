@@ -28,7 +28,7 @@ export default function Navbar() {
               className="flex items-center gap-2 kp-focus"
             >
               <Phone size={14} />
-              <span className="text-xs">+1 (402) 225-5507</span>
+              <span className="text-xs">+1 (402) 257-5507</span>
             </a>
           </div>
 
