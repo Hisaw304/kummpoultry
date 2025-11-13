@@ -101,22 +101,6 @@ export default function About() {
               sustainable farming. We combine modern innovation with
               family-driven values to deliver eggs you can trust — every day.
             </p>
-
-            <div className="mt-6 flex gap-3">
-              <a
-                href="/"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-md bg-[var(--kp-yellow)] text-black font-semibold kp-focus shadow"
-              >
-                Our products <ChevronRight size={16} />
-              </a>
-
-              <a
-                href="/"
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-md bg-white/10 text-white border border-white/20 kp-focus"
-              >
-                Contact us
-              </a>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -224,20 +208,6 @@ export default function About() {
             <p className="mt-1 text-sm">
               Partner with KummPoultry or order direct for farm-fresh quality.
             </p>
-          </div>
-          <div className="flex gap-3">
-            <a
-              href="/"
-              className="px-4 py-2 rounded-md bg-black text-white font-semibold kp-focus"
-            >
-              Shop now
-            </a>
-            <a
-              href="/"
-              className="px-4 py-2 rounded-md bg-white text-black font-medium kp-focus"
-            >
-              Contact sales
-            </a>
           </div>
         </motion.div>
       </section>
