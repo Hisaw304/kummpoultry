@@ -24,7 +24,13 @@ export default function Footer() {
 
           <div className="mt-4 text-sm">
             <div className="flex items-center gap-2">
-              <Mail size={14} /> <span>kummpoultry@gmail.com</span>
+              <a
+                href="mailto:info@kummpoultry.com"
+                className="flex items-center gap-2 kp-focus"
+              >
+                <Mail size={14} />{" "}
+                <span className="text-xs">info@kummpoultry.com</span>
+              </a>
             </div>
             <div className="flex items-center gap-2 mt-1">
               <Phone size={14} /> <span>+1 (402) 257-5507</span>
